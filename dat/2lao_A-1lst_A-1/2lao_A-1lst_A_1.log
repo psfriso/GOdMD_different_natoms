@@ -1,0 +1,70 @@
+ Molecules:    1 Residues:    238 Atoms:     238
+ Molecules:    1 Residues:    238 Atoms:     238
+ NATOM COMMON         238
+ =================================================
+ =                                               =
+ =                    GOdMD                      =
+ =                                               =
+ = P Sfriso, A. Emperador, JL. Gelpi, M.Orozco   =
+ =                                               =
+ =                  (c) 2013                     =
+ =================================================
+
+  I N P U T  F I L E S
+  ====================
+  Settings            : dmdtest.in
+  Initial PDB         : 2lao_A.REF.pdb
+  Energies            : energy.dat
+  Trajectory (PDB)    : 2lao_A-1lst_A_trajectory.crd
+  Target PDB          : 1lst_A.pdb
+  Calculation Log     : 2lao_A-1lst_A_1.log
+  Table of same residu: 2lao_A.aln
+  Table of same residu: 1lst_A.aln
+
+ ------------------------------------------------------------
+ | CALCULATION PARAMETERS                                   |
+ ------------------------------------------------------------
+ | Simulation settings                                      |
+ ------------------------------------------------------------
+ | Simulation Time (ps) (Nbloc x TSnap)       |    5000.000 |
+ | Output structure (fs)             | TSnap  |    1000.000 |
+ | Re-scoring target (fs)            | Trect  |     100.000 |
+ | Update velocities (fs)            | Tcorr  |     100.000 |
+ | Update Lists, collision times (fs)| Tact   |       5.000 |
+ | Min. accepted colision time (fs)  | TMin   |  0.00000010 |
+ | Temperature (K)                   | Temp   |       36.08 |
+ ------------------------------------------------------------
+ ------------------------------------------------------------
+ | DIMS                                                     |
+ ------------------------------------------------------------
+ |Acceptance                          |ACCEPTANCE|  0.76999998 |
+ |GO Energy   (kcal)                  |GOENER    |  0.25000000 |
+ |Changing distances well width(A)    |sigmago   |  0.10000000 |
+ |Tolerance between changes(A)        |dtol      |  0.30000001 |
+ |Not-Changing distances well width(A)|wellwidth |  0.13000000 |
+ |Dummy tolerance (A)                 |sigmaFake |  0.02000000 |
+ |Factor scaling NMA coupling         |scalFactor|  0.30000001 |
+ |Cut-off in Radius Gyration        | rgyrPercent|  0.50000000 |
+ |Cut-off not changing GO interact.(A)|rcut1     |100.00000000 |
+ |Minimum Energy of any well (kcal) | minEnerWell|  0.10000000 |
+ |Min time to eq. energy(ps)        |Ener_evo_size |  120    |
+ |Number of ENM Eigenvectors          |NEVECS    |    5    |
+ |Fraction of energy to add at MD     |DEGO_BASE |  0.03000000 |
+ |Minimum acceptable RMSD (A)    |errorAcceptable|  1.25000000 |
+ |Number of frames to skip            |NSKIP     |       5 |
+ ------------------------------------------------------------
+ | Other                                                    |
+ ------------------------------------------------------------
+ | Random generator seed                      |        2835 |
+ | IDAB, IGOAB, IWR, ISOLV                    |     1 1 1 1 |
+ ------------------------------------------------------------
+ PNS rgyr     18.161676487001049       CutOff    9.0808382435005246     
+ UNO QUE SE MUEVE           6           5   3.8475082736698729        3.7694414300035253     
+ UNO QUE SE MUEVE          13          12   3.7633583505571577        3.8434071459613461     
+ UNO QUE SE MUEVE          73          72   3.7368136431476673        3.8148065644627778     
+ UNO QUE SE MUEVE         112         111   3.7613276375573781        3.8663698270110842     
+ UNO QUE SE MUEVE         116         115   3.7139506202096930        3.8323602804927526     
+ UNO QUE SE MUEVE         122         121   3.7913098200750279        3.8832039056801846     
+ UNO QUE SE MUEVE         142         141   3.7365821634840390        3.8529786020418011     
+ UNO QUE SE MUEVE         158         157   3.7505540120924170        3.8595092803377535     
+ UNO QUE SE MUEVE         161         160   3.7657241445026295        3.8456408888719804     

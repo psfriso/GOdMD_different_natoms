@@ -1,0 +1,5 @@
+ &INPUT
+  TSNAP=1000
+  TEMP=300
+  seed=2835
+ &END 
