@@ -34,7 +34,7 @@
   real :: scalFactor=0.300   !40
   real :: rgyrPercent=0.500           ! DEFAULT=0.52
   real *8 :: rcut2GO4=0.0             !  depends on radius gyration
-  real *8 :: rcut1= 100.00 !70.00
+  real *8 :: rcut1= 70.00 !70.00 was the original value, 100 works better. switching back to 70 for consitiency with previous results
   real *8 :: mxRcut4go=12.0
   real *8 :: ssectol=dble(0.035)
   real :: minEnerWell=0.10   !*8.314         ! DEFAULT 0.05
@@ -44,7 +44,7 @@
  INTEGER , PARAMETER :: NEVECS=5
  real*8 :: hstep=1.0
  REAL , PARAMETER :: DEGO_BASE=0.03 ! 5 porciento del pozo a sacar en cada metaDMD
- REAL :: errorAcceptable=1.25
+ REAL :: errorAcceptable=1.00 ! 1.25 should be the value
  INTEGER :: nskip=5
  REAL :: sigmaFake=0.02
  CHARACTER(LEN=20) :: fileref='reference.pdb'
